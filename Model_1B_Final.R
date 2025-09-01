@@ -29,7 +29,7 @@ library(dismo)  # MaxEnt wrapper
 library(dplyr)  # preparation
 
 # STEP 2: Base & output directories 
-base_dir <- "D:/UCL/Modules/Dissertation" 
+base_dir <- "D:/UCL/Modules/Dissertation"  # outside the repo
 out_dir  <- file.path(base_dir, "Outputs", "Model1B_CLion")
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
@@ -154,4 +154,5 @@ capture.output(sessionInfo(), file = file.path(out_dir, "R_sessionInfo.txt"))
 
 # ============================================================================ #
 # END OF CODE
+
 # ============================================================================ #
