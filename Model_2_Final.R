@@ -34,7 +34,7 @@ SEED <- 20250725
 set.seed(SEED)
 
 # STEP 2: File paths (EDIT THESE ONLY)
-base_dir <- "D:/UCL/Modules/Dissertation"   
+base_dir <- "D:/UCL/Modules/Dissertation"  # outside the repo
 
 baltic_shp     <- file.path(base_dir, "Baltic sea shapefile", "New iho", "Clipped_shaped_baltic.shp")
 cable_line_shp <- file.path(base_dir, "Cable data", "Baltic cables", "Baltic_cables.shp")
@@ -164,4 +164,5 @@ q90
 
 # ============================================================================ #
 # END OF CODE
+
 # ============================================================================ #
